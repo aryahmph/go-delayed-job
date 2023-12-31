@@ -61,6 +61,7 @@ Check out the [example](cmd/job/expire_order.go) for a demonstrating the usage o
 ### How to Run
 ```bash
 $ docker compose up -d
+$ go mod tidy
 $ go run main.go playground # Generate jobs to demonstrate
 $ go run main.go job:expire-order # Run job watcher
 ```
